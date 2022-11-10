@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.form {
+    input {
+        background: url(/image/4.png) no-repeat calc(300px - 35px), url(/image/3.png)no-repeat calc(300px - 28px), white;
+    }
+}
+
+header {
+    .left {
+        h1 {
+            font-family: 'Prompt', sans-serif;
+        }
+    }
+}
+
+
+
+.work_box {
+    .find_box {
+
+        h1,
+        h2 {
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+}
+
+// .img_video_box {
+//     .boxer {
+//     }
+// }
+
+.rect {
+    .rect-box {
+        background: #FFFFFF;
+        box-shadow: -1px 1px 20px rgba(128, 128, 128, 0.1);
+        border-radius: 20px;
+        transition: all .3s linear;
+
+        &:hover {
+            background: #F9FAFF;
+            box-shadow: 0px 12px 30px rgba(71, 71, 71, 0.15);
+            border-radius: 20px;
+            transform: translate(0, -23px);
+        }
+    }
+}
+
+.database {
+    .programmer {
+        background: #FFFFFF;
+        box-shadow: -1px 1px 20px rgba(128, 128, 128, 0.1);
+        border-radius: 20px;
+        transition: all .3s linear;
+
+        &:hover {
+            background: #F9FAFF;
+            box-shadow: 0px 12px 30px rgba(71, 71, 71, 0.15);
+            transform: translate(0, -23px);
+            border-radius: 20px;
+        }
+    }
+}
+
+.apply-now {
+    button {
+        background: rgba(56, 49, 139, 0.33);
+    }
+}
+
+.premium {
+    .premium_box {
+        background: #FFFFFF;
+        box-shadow: -1px 1px 20px rgba(128, 128, 128, 0.1);
+        border-radius: 20px;
+        transition: all .3s linear;
+
+        &:hover {
+            background: #F9FAFF;
+            box-shadow: 0px 12px 30px rgba(71, 71, 71, 0.15);
+            border-radius: 20px;
+            transform: translate(0, -23px);
+        }
+    }
+}
+
+footer {
+    border-radius: 20px 20px 0 0;
+
+    .logosers {
+        .brand {
+            &:hover {
+                background: rgba(66, 56, 175, 0.81);
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .boxxing {
+
+        nav {
+            flex-wrap: wrap;
+            padding: 10px;
+
+            .menu {
+                display: none;
+            }
+
+            .logos {
+                width: 30%;
+            }
+
+            .form {
+                width: 70%;
+
+                input {
+                    width: 150px;
+                    background: url(/image/4.png) no-repeat calc(150px - 35px), url(/image/3.png)no-repeat calc(150px - 28px), white;
+                    padding-right: 40px;
+                }
+
+                input::placeholder {
+                    font-size: 13px;
+                }
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        header {
+            padding: 0;
+            flex-direction: column;
+
+            .left {
+                width: 100%;
+                min-height: 60vh;
+                padding: 10px;
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                .lorem {
+                    font-size: 14px;
+                }
+            }
+
+            .right {
+                width: 100%;
+                min-height: 60vh;
+                padding: 0 10px;
+            }
+        }
+    }
+
+    .How_it_works {
+        padding: 10px;
+
+        .img_logos {
+            width: 100%;
+            gap: 40px;
+        }
+
+        .work_box {
+            flex-direction: column;
+
+            .find_box {
+                width: 100%;
+                padding: 40px 0 0 0;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                .profile,
+                .vacansi,
+                .appy {
+                    width: 387px;
+                }
+
+                .vacansi .complete {
+                    width: 50%;
+                }
+
+                .vacansi {
+                    .ipsum {
+                        padding-left: 45px;
+                    }
+                }
+            }
+        }
+
+        .img_video_box {
+            width: 100%;
+            min-height: 50vh;
+
+            img {
+                height: 50vh;
+                width: 380px;
+            }
+        }
+    }
+
+    .Why-Choose-Us {
+        padding: 10px;
+
+        .choose {
+            justify-content: start;
+            align-items: start;
+            padding: 0 13px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            .dolor {
+                text-align: start;
+                width: 100%;
+                font-size: 15px;
+            }
+        }
+
+        .rect {
+            min-height: 120vh;
+            padding-top: 50px;
+            gap: 50px;
+        }
+    }
+
+    .Featured-Jobs {
+        padding: 10px;
+
+        .choose-box {
+            align-items: start;
+            padding: 0 9px;
+
+            h1 {
+                font-size: 35px;
+                text-align: start;
+            }
+
+            .dolor {
+                font-size: 15px;
+                width: 100%;
+                text-align: start;
+            }
+        }
+
+        .database {
+            min-height: 245vh;
+            padding-top: 50px;
+            gap: 50px;
+        }
+    }
+
+    .What-Our-Customer-Says {
+        padding: 10px;
+
+        .choose-box {
+            align-items: start;
+
+            h1 {
+                font-size: 35px;
+                text-align: start;
+            }
+
+            .dolor {
+                font-size: 15px;
+                width: 100%;
+                text-align: start;
+            }
+        }
+
+        .William-Smith {
+            flex-direction: column;
+
+            .left {
+                width: 100%;
+                justify-content: center !important;
+                align-items: center;
+
+                img:nth-child(2) {
+                    right: 70%;
+                    bottom: 78%;
+
+                }
+
+                img:nth-child(3) {
+                    right: 85%;
+                }
+            }
+
+            .right {
+                width: 100%;
+
+                .sed {
+                    left: 0;
+                }
+
+                .right-text {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .Talented-Freelancer {
+            width: 100%;
+            padding: 0;
+            min-height: 15vh;
+
+            .free {
+                width: 25%;
+                min-height: 10vh;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .Pricing-Plan {
+        padding: 10px;
+        .choose-box {
+            align-items: start;
+
+            h1 {
+                font-size: 35px;
+                text-align: start;
+            }
+
+            .dolor {
+                font-size: 15px;
+                width: 100%;
+                text-align: start;
+            }
+        }
+        .premium {
+            min-height: 260vh;
+            gap: 30px;
+            justify-content: center; 
+            align-items: center;
+            padding-top: 36px;
+        }
+    }
+    footer {
+        padding: 10px;
+        .links {
+            gap: 40px;
+            flex-wrap: wrap;
+            ul {
+                text-align: center;
+            }
+        }
+    }
+    .border {
+        width: 85%;
+    }
+    .iconc {
+        width: 100%;
+        flex-direction: column;
+        .logosers {
+            width: 100%;
+            justify-content: center; 
+            align-items: center;
+            gap: 30px;
+            padding: 0;
+        }
+        .logoserst {
+            display: none;
+        }
+    }
+}
